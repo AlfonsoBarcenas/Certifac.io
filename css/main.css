@@ -1,0 +1,430 @@
+
+/* Inicia CSS Navbar*/
+
+.navbar{
+    border-bottom: #263959 8px solid;
+    font-weight: bold;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+}
+.navbar a{
+    margin:5px 5px 5px 5px;
+}
+.logo-nav{
+    width: 40%;
+    margin-left: 35%;  
+}
+.nav-link{
+    transition: all 0.2s;
+}
+.nav-link{
+    border-bottom: 10px solid #263959;
+    
+}
+.nav-link:hover{
+    border-bottom: 8px solid #99c8e6;
+}
+
+/* Fin CSS Navbar*/
+
+/*Inicio CSS Inicio*/
+.section-inicio{
+    height: 90vh;
+}
+.img-carrusel{
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+.title-principal-carrusel1{
+   
+    
+}
+.title-principal-carrusel1 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.title-principal-carrusel1 h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.bottom-carrusel2{
+   
+}
+.text-botton1-carrusel2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.text-botton1-carrusel3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.text-botton2-carrusel3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+    border-radius: 20px;      
+}
+.text-botton2-carrusel3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+    border-radius: 20px;  
+}
+.text-botton1-carrusel4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+    border-radius: 20px;       
+}
+.text-botton2-carrusel4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10%;
+    border-radius: 20px;  
+}
+
+/*Fin CSS Inicio*/
+
+/*Inicio CSS Conocenos*/
+
+.section-conocenos{
+    background-color: #f8f9fa;
+   /* background-image: url(../img/conocenos-background.jpg);
+    background-color: rgb(255, 255, 255, .8);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;*/
+} 
+/*.title1-conocenos h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2a3d5b;
+    margin-top: 20px;
+}*/
+.text-parrafo1-conocenos{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-parrafo1-conocenos h1{
+    color: #397893;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-parrafo1-conocenos p{
+    color: #2a3d5b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 60%;
+    margin-top: 40px;  
+}
+.text-parrafo2-conocenos{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.text-parrafo2-conocenos h1{
+    color: #397893;
+    font-size: 35px;
+    font-weight: bold;
+}
+.text-parrafo2-conocenos p{
+    color: #2a3d5b;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 60%;
+    margin-top: 40px;
+}
+
+/*Fin CSS Conocenos*/
+
+/*Inicio CSS Servicios*/
+
+.section-servicios{
+    background-image: url(../img/servicios-backgraund.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    
+}
+.title-principal-servicios{
+    margin-top: 30px;
+}
+.title-principal-servicios h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-weight: bold;
+    color: #fff;
+}
+.img-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+
+    transition: all 0.3s;
+}
+.img-cards:hover{
+    transform: scale(1.1);
+}
+.text-cards-servicios {
+    color: #fff;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/*Inicio CSS Servicios*/
+
+/*Inicio CC Clientes*/
+
+img{
+	max-width: 100%;
+}
+.gallery{
+	background-color: #f8f9fa;
+	padding: 80px 0;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
+#gallery-modal .modal-img{
+	width: 100%;
+}
+
+/*Fin CC Clientes*/
+
+/*Inicio CSS FAQ*/
+
+.section-FAQ{
+    background-color: #263959;
+    height: 100%;
+}
+.title-principal-faq h1{
+    color: #f8f9fa;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.acordion-faq{
+  max-width: 80%;
+  margin:auto;
+  box-shadow: 0 0 1px rgba(0,0,0,0.1);  
+}
+
+/*Fin CSS FAQ*/
+
+/*Inicio CSS Contacto*/
+
+.section-contacto{
+    background-color: #f8f9fa;
+
+}
+.title-principal-contacto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 50px;
+    color: #397893;
+}
+.formulario-contacto{
+    margin-top: 50px;  
+}
+.title-telefonos-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-telefonos-contacto h1{
+    color: #397893;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.boton-formulario{
+    margin:  20px;
+}
+
+/*Fin CSS Contacto*/
+
+/*Inicio CSS Pac Autorizado*/
+
+.sectioin-pacautorizado{
+    border-top: #263959 4px solid;
+    border-bottom:#263959 4px solid ;
+    background-color: #f8f9fa;
+}
+.img-pacautorizado{
+    margin-top: 5px;
+}
+.certifac-fecha{
+    color: #397893;
+}
+.pdf-privacidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pdf-privacidad a{
+    text-decoration: none;
+}
+.pdf-privacidad h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #397893;
+}
+
+/*Fin CSS Pac Autorizado*/
+
+/*Inicio CSS Footer*/
+
+.section-footer{
+    background-color: #263959;
+    height: 100%;
+}
+.text-direccion h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #f8f9fa;
+}
+.footer-icon-section{
+    text-align: center;
+}
+.footer-icon-section a{
+    text-decoration: none;
+}
+.iconos-footer{
+    width: 10%;
+    height: 10%;
+    color: #fff;
+    margin-inline: 30px;
+}
+
+/*Fin CSS Footer*/
+
+/* Para 960px */  
+@media only screen and (max-width: 980px) and (min-width: 821px) {  
+  
+}  
+  
+/* Para 800px */  
+@media only screen and (max-width: 820px) and (min-width: 621px) {  
+  
+}  
+  
+/* Para 600px */  
+@media only screen and (max-width: 620px) and (min-width: 501px) {  
+    /*Inicio CSS Inicio*/
+.section-inicio{
+    height: 120vh;
+}
+.img-carrusel{
+    height: 120vh;  
+}
+.title-principal-carrusel1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.title-principal-carrusel1 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*Fin CSS Inicio*/
+ 
+}  
+  
+/* Para 480px */  
+@media only screen and (max-width: 500px) and (min-width: 341px) { 
+/*Inicio CSS Inicio*/
+.section-inicio{
+    height: 150vh;
+}
+.img-carrusel{
+    height: 150vh;  
+}
+.title-principal-carrusel1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.title-principal-carrusel1 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*Fin CSS Inicio*/
+
+}  
+  
+/* Para 320px */  
+@media only screen and (max-width: 340px) and (min-width: 5px)  {  
+    /*Inicio CSS Inicio*/
+.section-inicio{
+    height: 180vh;
+}
+.img-carrusel{
+    height: 180vh;  
+}
+.title-principal-carrusel1 p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.title-principal-carrusel1 h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*Fin CSS Inicio*/
+  
+} 
+ 

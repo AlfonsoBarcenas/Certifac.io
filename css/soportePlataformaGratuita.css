@@ -1,0 +1,164 @@
+/* Inicia CSS Navbar*/
+
+.navbar{
+    border-bottom: #263959 8px solid;
+    font-weight: bold;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+}
+.navbar a{
+    margin:5px 5px 5px 5px;
+}
+.logo-nav{
+    width: 40%;
+    margin-left: 35%;  
+}
+.nav-link{
+    transition: all 0.2s;
+}
+.nav-link{
+    border-bottom: 10px solid #263959;
+    
+}
+.nav-link:hover{
+    border-bottom: 8px solid #99c8e6;
+}
+
+/* Fin CSS Navbar*/
+
+/*Initio CSS Soporte Plataforma Gratuita*/
+
+.soportePlataformaGratuita{
+    background-image: url(../img/servicios-backgraund.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+.buttonManualUsuarioGratuito button{
+    margin-top: 170px;
+    font-size: 23px;
+}
+.buttonManualUsuarioGratuito button a{
+    color: #fff;
+    text-decoration: none;
+}
+.buttons-videos-plataforma-gratuita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.video1{
+    margin-top: 50px;
+    display: block
+}
+.video2{
+    margin-top: 50px;
+    display: none;
+}
+.video3{
+    margin-top: 50px;
+    display: none;
+    
+}
+.video4{
+    margin-top: 50px;
+    display: none;
+}
+
+/*Fin CSS Soporte Plataforma Gratuita*/
+
+/*Inicio CSS Contacto*/
+
+.section-contacto{
+    background-color: #f8f9fa;
+
+}
+.title-principal-contacto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 50px;
+    color: #397893;
+}
+.formulario-contacto{
+    margin-top: 50px;  
+}
+.title-telefonos-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-telefonos-contacto h1{
+    color: #397893;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.boton-formulario{
+    margin:  20px;
+}
+
+/*Fin CSS Contacto*/
+
+/*Inicio CSS Pac Autorizado*/
+
+.sectioin-pacautorizado{
+    border-top: #263959 4px solid;
+    border-bottom:#263959 4px solid ;
+    background-color: #f8f9fa;
+}
+.img-pacautorizado{
+    margin-top: 5px;
+}
+.certifac-fecha{
+    color: #397893;
+}
+.pdf-privacidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pdf-privacidad a{
+    text-decoration: none;
+}
+.pdf-privacidad h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #397893;
+}
+
+/*Fin CSS Pac Autorizado*/
+
+/*Inicio CSS Footer*/
+
+.section-footer{
+    background-color: #263959;
+    height: 100%;
+}
+.text-direccion h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #f8f9fa;
+}
+.footer-icon-section{
+    text-align: center;
+}
+.footer-icon-section a{
+    text-decoration: none;
+}
+.iconos-footer{
+    width: 10%;
+    height: 10%;
+    color: #fff;
+    margin-inline: 30px;
+}
+
+/*Fin CSS Footer*/

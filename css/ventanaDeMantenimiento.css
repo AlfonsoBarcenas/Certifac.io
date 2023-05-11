@@ -1,0 +1,262 @@
+/* Inicia CSS Navbar*/
+
+.navbar{
+    border-bottom: #263959 8px solid;
+    font-weight: bold;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+}
+.navbar a{
+    margin:5px 5px 5px 5px;
+}
+.logo-nav{
+    width: 40%;
+    margin-left: 35%;  
+}
+.nav-link{
+    transition: all 0.2s;
+}
+.nav-link{
+    border-bottom: 10px solid #263959;
+}
+.nav-link:hover{
+    border-bottom: 8px solid #99c8e6;
+}
+
+/* Fin CSS Navbar*/
+
+/*Inicio CSS Ventana de Mantenimiento*/
+
+.section-ventanademantenimiento{
+    background-image: url(../img/servicios-backgraund.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title-ventana-mantenimiento-principal h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-align: center;
+}
+.tabla1{
+    margin-top: 50px;
+}
+.tabla1 th{
+    color: #fff;
+    font-weight: bold;  
+}
+.tabla1 td a{
+    color: #fff;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.tabla1 td a:hover{
+    color:blue;
+}
+.tabla2{
+    display: none;
+    margin-top: 50px;
+}
+.tabla2 th{
+    color: #fff;
+    font-weight: bold;  
+}
+.tabla2 td a{
+    color: #fff;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.tabla2 td a:hover{
+    color:blue;
+}
+.tabla3{
+    display: none;
+    margin-top: 50px;
+}
+.tabla3 th{
+    color: #fff;
+    font-weight: bold;  
+}
+.tabla3 td a{
+    color: #fff;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.tabla3 td a:hover{
+    color:blue;
+}
+.tabla4{
+    display: none;
+    margin-top: 50px;
+}
+.tabla4 th{
+    color: #fff;
+    font-weight: bold;  
+}
+.tabla4 td a{
+    color: #fff;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.tabla4 td a:hover{
+    color:blue;
+}
+.tabla5{
+    display: none;
+    margin-top: 50px;
+}
+.tabla5 th{
+    color: #fff;
+    font-weight: bold;  
+}
+.tabla5 td a{
+    color: #fff;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.tabla5 td a:hover{
+    color:blue;
+}
+.tabla6{
+    display: none;
+    margin-top: 50px;
+}
+.tabla6 th{
+    color: #fff;
+    font-weight: bold;  
+}
+.tabla6 td a{
+    color: #fff;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.tabla6 td a:hover{
+    color:blue;
+}
+
+/*Inicio CSS Modal1 2023*/
+.tablas-modal-2023-2022-2021-2020-2018{
+    margin-top: 50px;
+}
+.tablas-modal-2023-2022-2021-2020-2018 th{
+    color:#397893;
+    font-weight: bold;  
+}
+.tablas-modal-2023-2022-2021-2020-2018 td {
+    color: #263959;
+    font-weight: bold;  
+    text-decoration: none;
+}
+.text-modal-1-2023-2022-2021-2020-2018 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #397893;
+    text-align: center;
+}
+.text-modal-1-2023-2022-2021-2020-2018 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #263959;
+    text-align: center;
+}
+/*Fin CSS Modal1 2023*/
+
+
+
+
+
+/*Fin CSS Ventana de Mantenimiento*/
+
+/*Inicio CSS Contacto*/
+
+.section-contacto{
+    background-color: #f8f9fa;
+}
+.title-principal-contacto h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 50px;
+    color: #397893;
+}
+.formulario-contacto{
+    margin-top: 50px;  
+}
+.title-telefonos-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-telefonos-contacto h1{
+    color: #397893;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.boton-formulario{
+    margin:  20px;
+}
+
+/*Fin CSS Contacto*/
+
+/*Inicio CSS Pac Autorizado*/
+
+.sectioin-pacautorizado{
+    border-top: #263959 4px solid;
+    border-bottom:#263959 4px solid ;
+    background-color: #f8f9fa;
+}
+.img-pacautorizado{
+    margin-top: 5px;
+}
+.certifac-fecha{
+    color: #397893;
+}
+.pdf-privacidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pdf-privacidad a{
+    text-decoration: none;
+}
+.pdf-privacidad h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #397893;
+}
+
+/*Fin CSS Pac Autorizado*/
+
+/*Inicio CSS Footer*/
+
+.section-footer{
+    background-color: #263959;
+    height: 100%;
+}
+.text-direccion h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    color: #f8f9fa;
+}
+.footer-icon-section{
+    text-align: center;
+}
+.footer-icon-section a{
+    text-decoration: none;
+}
+.iconos-footer{
+    width: 10%;
+    height: 10%;
+    color: #fff;
+    margin-inline: 30px;
+}
+
+/*Fin CSS Footer*/
+
